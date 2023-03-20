@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="flip.css">
+    <title>flipCoin</title>
+</head>
+<body>
+  <div style="text-align: -webkit-center;">
+    <div class="coin">
+      <div class="front"></div>
+      <div class="back"></div>
+    </div>
+    <label for="">Flip: </label>
+    <input type="text" name="flipcount" class="flipcount" placeholder="Flip count"></input>
+    <button onclick="flipCoin()">Flip</button>
+    <label style="display:block; padding-top: 50px;" for="">Classic Definition: </label>
+    <label for="">Heads Probability: </label>
+    <input type="text" placeholder="" value="0.5"></input>
+    <label for="">Tails Probability: </label>
+    <input type="text" placeholder="" value="0.5"></input>
+    <label style="display:block; padding-top: 50px;" for="">Relative Frequency Definition: </label>
+    <label for="">Heads Count: </label>
+    <input type="text" class="heads-count" placeholder="Heads Count" value=""></input>
+    <label for="">Tails Count: </label>
+    <input type="text" class="tails-count" placeholder="Tails Count" value=""></input>
+    <label for="">Heads Probability: </label>
+    <input type="text" class="heads-probability" placeholder="Heads Probability" value=""></input>
+    <label for="">Tails Probability: </label>
+    <input type="text" class="tails-probability" placeholder="Tails Probability" value=""></input>
+  </div>
+</body>
+<script src="flip.js"></script>
+</html>
